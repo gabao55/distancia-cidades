@@ -1,0 +1,15 @@
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/bin/Debug/net7.0/DistanciaCidadesLinhaDeComando
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/bin/Debug/net7.0/DistanciaCidadesLinhaDeComando.deps.json
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/bin/Debug/net7.0/DistanciaCidadesLinhaDeComando.runtimeconfig.json
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/bin/Debug/net7.0/DistanciaCidadesLinhaDeComando.dll
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/bin/Debug/net7.0/DistanciaCidadesLinhaDeComando.pdb
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.csproj.AssemblyReference.cache
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.AssemblyInfoInputs.cache
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.AssemblyInfo.cs
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.csproj.CoreCompileInputs.cache
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.dll
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/refint/DistanciaCidadesLinhaDeComando.dll
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.pdb
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/DistanciaCidadesLinhaDeComando.genruntimeconfig.cache
+/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/obj/Debug/net7.0/ref/DistanciaCidadesLinhaDeComando.dll
