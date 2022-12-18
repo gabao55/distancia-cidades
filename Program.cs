@@ -6,23 +6,33 @@ namespace DistanciaCidades
     public class Program {
         static void Main(string[] args)
         {
-            int[,] distancesArray = {
-                { 0, 15, 30, 5, 12 },
-                { 15, 0, 10, 17, 28 },
-                { 30, 10, 0, 3, 11 },
-                { 5, 17, 3, 0, 80 },
-                { 12, 28, 11, 80, 0 },
-            };
-            
-            Console.WriteLine("Insira o caminho a ser percorrido:");
-            string? pathsText = Console.ReadLine();
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string distancesFileName = "matriz.txt";
 
-            while (pathsText == null || pathsText == "") {
-                Console.WriteLine("Caminho inserido inválido, por favor insira um caminho válido (exemplo: 1,2,3,2,5,1,4):");
-                pathsText = Console.ReadLine();
+            string distancesFileAddress = Path.Combine(desktopPath, distancesFileName);
+            
+            string[] distancesLines = File.ReadAllLines(distancesFileAddress);
+
+            int[,] distancesArray = new int[distancesLines.Length, distancesLines.Length];
+
+            for (int i = 0; i < distancesLines.Length; i++)
+            { 
+                int[] distances = distancesLines[i].Split(",").Select(n => Convert.ToInt32(n)).ToArray();
+                distances = distances.ToArray();
+
+                for (int j = 0; j < distances.Length; j++)
+                {
+                    distancesArray[i, j] = distances[j];
+                }
             }
 
-            int[] paths = pathsText.Split(",").Select(n => Convert.ToInt32(n)).ToArray();
+            string pathsFileName = "caminhos.txt";
+
+            string pathsFileAddress = Path.Combine(desktopPath, pathsFileName);
+            
+            string[] pathsLine = File.ReadAllLines(pathsFileAddress);
+
+            int[] paths = pathsLine[0].Split(", ").Select(n => Convert.ToInt32(n)).ToArray();
 
             int acc = 0;
 
