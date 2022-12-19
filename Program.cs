@@ -6,13 +6,38 @@ namespace DistanciaCidades
     public class Program {
         static void Main(string[] args)
         {
-            int[,] distancesArray = {
-                { 0, 15, 30, 5, 12 },
-                { 15, 0, 10, 17, 28 },
-                { 30, 10, 0, 3, 11 },
-                { 5, 17, 3, 0, 80 },
-                { 12, 28, 11, 80, 0 },
-            };
+            Console.WriteLine("Quantas cidades quer utilizar para análise do percurso?");
+            bool validateInput;
+            int matrixLength;
+
+            do
+            {
+                validateInput = int.TryParse(Console.ReadLine(), out matrixLength);
+            } while (!validateInput);
+
+            int[,] distancesArray = new int[matrixLength, matrixLength];
+            int currentDistance;
+
+            for (int i = 0; i < matrixLength; i++)
+            {
+                for (int j = i; j < matrixLength; j++)
+                {
+                    if (i == j) {
+                        distancesArray[i, j] = 0;
+                    }
+                    else 
+                    {   
+                        do
+                        {
+                            Console.WriteLine($"Informe a distância entre as cidades {i+1} e {j+1}:");
+                            validateInput = int.TryParse(Console.ReadLine(), out currentDistance);
+                        } while (!validateInput);
+
+                        distancesArray[i, j] = currentDistance;
+                        distancesArray[j, i] = currentDistance;
+                    }
+                }
+            }
             
             Console.WriteLine("Insira o caminho a ser percorrido:");
             string? pathsText = Console.ReadLine();

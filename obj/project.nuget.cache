@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "u8pXUOVbhYzwFs+ADh4Ivi3ApOngMX5f3kZ8xiIBkEDLbcFJDBA9X1Yg12iP1qDCCeMdtqd8vDdyh3Yh21SFaw==",
+  "dgSpecHash": "2/VG2eqnDO/kiiJ+5wuSRqpqh+B8mhjwc6GvC+86tK8nB48FzNNk4rhrguyMa1Gqw3NExTDB+2NZ7eghHJC+1g==",
   "success": true,
   "projectFilePath": "/home/gabriel/Documents/Trainee - Credit Suisse 2022/Curso/Introdução/DistanciaCidadesLinhaDeComando/DistanciaCidadesLinhaDeComando.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/gabriel/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
