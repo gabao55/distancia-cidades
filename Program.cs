@@ -10,6 +10,9 @@ namespace DistanciaCidades
             string distancesFileName = "matriz.txt";
 
             string distancesFileAddress = Path.Combine(desktopPath, distancesFileName);
+
+            string matrixText = "00,15,30,05,12\n15,00,10,17,28\n30,10,00,03,11\n05,17,03,00,80\n12,28,11,80,00";
+            File.WriteAllText(distancesFileAddress, matrixText);
             
             string[] distancesLines = File.ReadAllLines(distancesFileAddress);
 
@@ -29,6 +32,9 @@ namespace DistanciaCidades
             string pathsFileName = "caminhos.txt";
 
             string pathsFileAddress = Path.Combine(desktopPath, pathsFileName);
+
+            string pathsText = "1, 2, 3, 2, 5, 1, 4";
+            File.WriteAllText(pathsFileAddress, pathsText);
             
             string[] pathsLine = File.ReadAllLines(pathsFileAddress);
 
